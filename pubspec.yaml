@@ -1,0 +1,68 @@
+name: flutter_websocket_riverpod
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  animations: 
+  auto_route: 
+  cached_network_image: 
+  connectivity_plus: 
+  cupertino_icons: 
+  device_preview: 
+  dio: 
+  easy_localization: 
+  flutter:
+    sdk: flutter
+  flutter_riverpod: 
+  flutter_local_notifications: 
+  flutter_svg: 
+  font_awesome_flutter: 
+  freezed: 
+  freezed_annotation: 
+  geolocator: 
+  google_maps_flutter: 
+  google_maps_flutter_web: 
+  hive_flutter: ^1.1.0
+  json_annotation: 
+  kartal: 
+  lottie: 
+  permission_handler: 
+  pinput: 
+  settings_ui: 
+  shimmer: 
+  web_socket_channel: ^2.4.0
+
+dev_dependencies:
+  auto_route_generator: 
+  build_runner: 
+  flutter_lints: 
+  flutter_test:
+    sdk: flutter
+  hive_generator: 
+  json_serializable: 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/jsons/
+    - assets/lang/
+    - assets/lotties/
+    - assets/ss/
+    - assets/svg/
+  # Add Custom Fonts
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: assets/fonts/Montserrat-Black.ttf
+  #       - asset: assets/fonts/Montserrat-Bold.ttf
+  #       - asset: assets/fonts/Montserrat-Light.ttf
+  #       - asset: assets/fonts/Montserrat-Medium.ttf
+  #       - asset: assets/fonts/Montserrat-Regular.ttf
+  #       - asset: assets/fonts/Montserrat-SemiBold.ttf
