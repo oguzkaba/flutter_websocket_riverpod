@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_websocket_riverpod/core/init/theme/theme.dart';
 import 'package:flutter_websocket_riverpod/features/home/view/home_view.dart';
 
+import 'core/init/logger/logger.dart';
+
 void main() {
-  runApp(const ProviderScope(
-    child: MainApp(),
+  runApp(ProviderScope(
+    observers: <ProviderObserver>[Logger()],
+    child: const MainApp(),
   ));
 }
 
@@ -13,9 +17,11 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      theme: AppTheme.instance.darkTheme,
+      themeMode: ThemeMode.dark,
+      home: const HomeView(),
     );
   }
 }

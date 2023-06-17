@@ -20,16 +20,16 @@ SocketTradeModel _$SocketTradeModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$SocketTradeModel {
-  int? get SocketTradeModelE => throw _privateConstructorUsedError;
+  int? get socketTradeModelE => throw _privateConstructorUsedError;
   String? get e => throw _privateConstructorUsedError;
   String? get s => throw _privateConstructorUsedError;
-  int? get SocketTradeModelT => throw _privateConstructorUsedError;
+  int? get socketTradeModelT => throw _privateConstructorUsedError;
   String? get p => throw _privateConstructorUsedError;
   String? get q => throw _privateConstructorUsedError;
   int? get b => throw _privateConstructorUsedError;
   int? get a => throw _privateConstructorUsedError;
   int? get t => throw _privateConstructorUsedError;
-  bool? get SocketTradeModelM => throw _privateConstructorUsedError;
+  bool? get socketTradeModelM => throw _privateConstructorUsedError;
   bool? get m => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
@@ -45,16 +45,16 @@ abstract class $SocketTradeModelCopyWith<$Res> {
       _$SocketTradeModelCopyWithImpl<$Res, SocketTradeModel>;
   @useResult
   $Res call(
-      {int? SocketTradeModelE,
+      {int? socketTradeModelE,
       String? e,
       String? s,
-      int? SocketTradeModelT,
+      int? socketTradeModelT,
       String? p,
       String? q,
       int? b,
       int? a,
       int? t,
-      bool? SocketTradeModelM,
+      bool? socketTradeModelM,
       bool? m});
 }
 
@@ -71,22 +71,22 @@ class _$SocketTradeModelCopyWithImpl<$Res, $Val extends SocketTradeModel>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? SocketTradeModelE = freezed,
+    Object? socketTradeModelE = freezed,
     Object? e = freezed,
     Object? s = freezed,
-    Object? SocketTradeModelT = freezed,
+    Object? socketTradeModelT = freezed,
     Object? p = freezed,
     Object? q = freezed,
     Object? b = freezed,
     Object? a = freezed,
     Object? t = freezed,
-    Object? SocketTradeModelM = freezed,
+    Object? socketTradeModelM = freezed,
     Object? m = freezed,
   }) {
     return _then(_value.copyWith(
-      SocketTradeModelE: freezed == SocketTradeModelE
-          ? _value.SocketTradeModelE
-          : SocketTradeModelE // ignore: cast_nullable_to_non_nullable
+      socketTradeModelE: freezed == socketTradeModelE
+          ? _value.socketTradeModelE
+          : socketTradeModelE // ignore: cast_nullable_to_non_nullable
               as int?,
       e: freezed == e
           ? _value.e
@@ -96,9 +96,9 @@ class _$SocketTradeModelCopyWithImpl<$Res, $Val extends SocketTradeModel>
           ? _value.s
           : s // ignore: cast_nullable_to_non_nullable
               as String?,
-      SocketTradeModelT: freezed == SocketTradeModelT
-          ? _value.SocketTradeModelT
-          : SocketTradeModelT // ignore: cast_nullable_to_non_nullable
+      socketTradeModelT: freezed == socketTradeModelT
+          ? _value.socketTradeModelT
+          : socketTradeModelT // ignore: cast_nullable_to_non_nullable
               as int?,
       p: freezed == p
           ? _value.p
@@ -120,9 +120,9 @@ class _$SocketTradeModelCopyWithImpl<$Res, $Val extends SocketTradeModel>
           ? _value.t
           : t // ignore: cast_nullable_to_non_nullable
               as int?,
-      SocketTradeModelM: freezed == SocketTradeModelM
-          ? _value.SocketTradeModelM
-          : SocketTradeModelM // ignore: cast_nullable_to_non_nullable
+      socketTradeModelM: freezed == socketTradeModelM
+          ? _value.socketTradeModelM
+          : socketTradeModelM // ignore: cast_nullable_to_non_nullable
               as bool?,
       m: freezed == m
           ? _value.m
@@ -141,16 +141,16 @@ abstract class _$$_SocketTradeModelCopyWith<$Res>
   @override
   @useResult
   $Res call(
-      {int? SocketTradeModelE,
+      {int? socketTradeModelE,
       String? e,
       String? s,
-      int? SocketTradeModelT,
+      int? socketTradeModelT,
       String? p,
       String? q,
       int? b,
       int? a,
       int? t,
-      bool? SocketTradeModelM,
+      bool? socketTradeModelM,
       bool? m});
 }
 
@@ -165,22 +165,22 @@ class __$$_SocketTradeModelCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? SocketTradeModelE = freezed,
+    Object? socketTradeModelE = freezed,
     Object? e = freezed,
     Object? s = freezed,
-    Object? SocketTradeModelT = freezed,
+    Object? socketTradeModelT = freezed,
     Object? p = freezed,
     Object? q = freezed,
     Object? b = freezed,
     Object? a = freezed,
     Object? t = freezed,
-    Object? SocketTradeModelM = freezed,
+    Object? socketTradeModelM = freezed,
     Object? m = freezed,
   }) {
     return _then(_$_SocketTradeModel(
-      SocketTradeModelE: freezed == SocketTradeModelE
-          ? _value.SocketTradeModelE
-          : SocketTradeModelE // ignore: cast_nullable_to_non_nullable
+      socketTradeModelE: freezed == socketTradeModelE
+          ? _value.socketTradeModelE
+          : socketTradeModelE // ignore: cast_nullable_to_non_nullable
               as int?,
       e: freezed == e
           ? _value.e
@@ -190,9 +190,9 @@ class __$$_SocketTradeModelCopyWithImpl<$Res>
           ? _value.s
           : s // ignore: cast_nullable_to_non_nullable
               as String?,
-      SocketTradeModelT: freezed == SocketTradeModelT
-          ? _value.SocketTradeModelT
-          : SocketTradeModelT // ignore: cast_nullable_to_non_nullable
+      socketTradeModelT: freezed == socketTradeModelT
+          ? _value.socketTradeModelT
+          : socketTradeModelT // ignore: cast_nullable_to_non_nullable
               as int?,
       p: freezed == p
           ? _value.p
@@ -214,9 +214,9 @@ class __$$_SocketTradeModelCopyWithImpl<$Res>
           ? _value.t
           : t // ignore: cast_nullable_to_non_nullable
               as int?,
-      SocketTradeModelM: freezed == SocketTradeModelM
-          ? _value.SocketTradeModelM
-          : SocketTradeModelM // ignore: cast_nullable_to_non_nullable
+      socketTradeModelM: freezed == socketTradeModelM
+          ? _value.socketTradeModelM
+          : socketTradeModelM // ignore: cast_nullable_to_non_nullable
               as bool?,
       m: freezed == m
           ? _value.m
@@ -230,29 +230,29 @@ class __$$_SocketTradeModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_SocketTradeModel implements _SocketTradeModel {
   const _$_SocketTradeModel(
-      {this.SocketTradeModelE,
+      {this.socketTradeModelE,
       this.e,
       this.s,
-      this.SocketTradeModelT,
+      this.socketTradeModelT,
       this.p,
       this.q,
       this.b,
       this.a,
       this.t,
-      this.SocketTradeModelM,
+      this.socketTradeModelM,
       this.m});
 
   factory _$_SocketTradeModel.fromJson(Map<String, dynamic> json) =>
       _$$_SocketTradeModelFromJson(json);
 
   @override
-  final int? SocketTradeModelE;
+  final int? socketTradeModelE;
   @override
   final String? e;
   @override
   final String? s;
   @override
-  final int? SocketTradeModelT;
+  final int? socketTradeModelT;
   @override
   final String? p;
   @override
@@ -264,13 +264,13 @@ class _$_SocketTradeModel implements _SocketTradeModel {
   @override
   final int? t;
   @override
-  final bool? SocketTradeModelM;
+  final bool? socketTradeModelM;
   @override
   final bool? m;
 
   @override
   String toString() {
-    return 'SocketTradeModel(SocketTradeModelE: $SocketTradeModelE, e: $e, s: $s, SocketTradeModelT: $SocketTradeModelT, p: $p, q: $q, b: $b, a: $a, t: $t, SocketTradeModelM: $SocketTradeModelM, m: $m)';
+    return 'SocketTradeModel(socketTradeModelE: $socketTradeModelE, e: $e, s: $s, socketTradeModelT: $socketTradeModelT, p: $p, q: $q, b: $b, a: $a, t: $t, socketTradeModelM: $socketTradeModelM, m: $m)';
   }
 
   @override
@@ -278,26 +278,26 @@ class _$_SocketTradeModel implements _SocketTradeModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_SocketTradeModel &&
-            (identical(other.SocketTradeModelE, SocketTradeModelE) ||
-                other.SocketTradeModelE == SocketTradeModelE) &&
+            (identical(other.socketTradeModelE, socketTradeModelE) ||
+                other.socketTradeModelE == socketTradeModelE) &&
             (identical(other.e, e) || other.e == e) &&
             (identical(other.s, s) || other.s == s) &&
-            (identical(other.SocketTradeModelT, SocketTradeModelT) ||
-                other.SocketTradeModelT == SocketTradeModelT) &&
+            (identical(other.socketTradeModelT, socketTradeModelT) ||
+                other.socketTradeModelT == socketTradeModelT) &&
             (identical(other.p, p) || other.p == p) &&
             (identical(other.q, q) || other.q == q) &&
             (identical(other.b, b) || other.b == b) &&
             (identical(other.a, a) || other.a == a) &&
             (identical(other.t, t) || other.t == t) &&
-            (identical(other.SocketTradeModelM, SocketTradeModelM) ||
-                other.SocketTradeModelM == SocketTradeModelM) &&
+            (identical(other.socketTradeModelM, socketTradeModelM) ||
+                other.socketTradeModelM == socketTradeModelM) &&
             (identical(other.m, m) || other.m == m));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, SocketTradeModelE, e, s,
-      SocketTradeModelT, p, q, b, a, t, SocketTradeModelM, m);
+  int get hashCode => Object.hash(runtimeType, socketTradeModelE, e, s,
+      socketTradeModelT, p, q, b, a, t, socketTradeModelM, m);
 
   @JsonKey(ignore: true)
   @override
@@ -315,29 +315,29 @@ class _$_SocketTradeModel implements _SocketTradeModel {
 
 abstract class _SocketTradeModel implements SocketTradeModel {
   const factory _SocketTradeModel(
-      {final int? SocketTradeModelE,
+      {final int? socketTradeModelE,
       final String? e,
       final String? s,
-      final int? SocketTradeModelT,
+      final int? socketTradeModelT,
       final String? p,
       final String? q,
       final int? b,
       final int? a,
       final int? t,
-      final bool? SocketTradeModelM,
+      final bool? socketTradeModelM,
       final bool? m}) = _$_SocketTradeModel;
 
   factory _SocketTradeModel.fromJson(Map<String, dynamic> json) =
       _$_SocketTradeModel.fromJson;
 
   @override
-  int? get SocketTradeModelE;
+  int? get socketTradeModelE;
   @override
   String? get e;
   @override
   String? get s;
   @override
-  int? get SocketTradeModelT;
+  int? get socketTradeModelT;
   @override
   String? get p;
   @override
@@ -349,7 +349,7 @@ abstract class _SocketTradeModel implements SocketTradeModel {
   @override
   int? get t;
   @override
-  bool? get SocketTradeModelM;
+  bool? get socketTradeModelM;
   @override
   bool? get m;
   @override

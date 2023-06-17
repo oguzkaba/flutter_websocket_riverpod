@@ -17,16 +17,16 @@ String socketTradeModelToJson(SocketTradeModel data) =>
 @freezed
 class SocketTradeModel with _$SocketTradeModel {
   const factory SocketTradeModel({
-    int? SocketTradeModelE,
+    int? socketTradeModelE,
     String? e,
     String? s,
-    int? SocketTradeModelT,
+    int? socketTradeModelT,
     String? p,
     String? q,
     int? b,
     int? a,
     int? t,
-    bool? SocketTradeModelM,
+    bool? socketTradeModelM,
     bool? m,
   }) = _SocketTradeModel;
 

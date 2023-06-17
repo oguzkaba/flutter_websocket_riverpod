@@ -17,8 +17,8 @@ String socketKLineModelToJson(SocketKLineModel data) =>
 @freezed
 class SocketKLineModel with _$SocketKLineModel {
   const factory SocketKLineModel({
-    String? socketKLineModelE,
-    int? e,
+    String? e,
+    int? E,
     String? s,
     K? k,
   }) = _SocketKLineModel;
@@ -30,23 +30,22 @@ class SocketKLineModel with _$SocketKLineModel {
 @freezed
 class K with _$K {
   const factory K({
-    int? kT,
     int? t,
+    int? T,
     String? s,
     String? i,
     int? f,
-    int? l,
+    int? L,
     String? o,
     String? c,
     String? h,
-    String? kL,
-    String? kV,
-    int? n,
-    bool? x,
-    String? kQ,
+    String? l,
     String? v,
+    bool? x,
     String? q,
-    String? b,
+    String? Q,
+    String? V,
+    String? B,
   }) = _K;
 
   factory K.fromJson(Map<String, dynamic> json) => _$KFromJson(json);

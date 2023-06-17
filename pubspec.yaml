@@ -7,43 +7,41 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  animations: 
-  auto_route: 
-  cached_network_image: 
-  connectivity_plus: 
-  cupertino_icons: 
-  device_preview: 
-  dio: 
-  easy_localization: 
+  animations: ^2.0.7
+  auto_route: ^7.4.0
+  cached_network_image: ^3.2.3
+  connectivity_plus: ^4.0.1
+  cupertino_icons: ^1.0.5
+  device_preview: ^1.1.0
+  dio: ^5.2.1+1
+  easy_localization: ^3.0.2
+  fl_chart: ^0.63.0
   flutter:
     sdk: flutter
-  flutter_riverpod: 
-  flutter_local_notifications: 
-  flutter_svg: 
-  font_awesome_flutter: 
-  freezed: 
-  freezed_annotation: 
-  geolocator: 
-  google_maps_flutter: 
-  google_maps_flutter_web: 
+  flutter_local_notifications: ^14.1.1
+  flutter_riverpod: ^2.3.6
+  flutter_svg: ^2.0.7
+  font_awesome_flutter: ^10.4.0
+  freezed: ^2.3.5
+  freezed_annotation: ^2.2.0
   hive_flutter: ^1.1.0
-  json_annotation: 
-  kartal: 
-  lottie: 
-  permission_handler: 
-  pinput: 
-  settings_ui: 
-  shimmer: 
+  json_annotation: ^4.8.1
+  kartal: ^3.0.0
+  lottie: ^2.4.0
+  permission_handler: ^10.3.0
+  pinput: ^2.2.31
+  settings_ui: ^2.0.2
+  shimmer: ^3.0.0
   web_socket_channel: ^2.4.0
 
 dev_dependencies:
-  auto_route_generator: 
-  build_runner: 
-  flutter_lints: 
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.4.5
+  flutter_lints: ^2.0.1
   flutter_test:
     sdk: flutter
-  hive_generator: 
-  json_serializable: 
+  hive_generator: ^2.0.0
+  json_serializable: ^6.7.0
 
 flutter:
   uses-material-design: true

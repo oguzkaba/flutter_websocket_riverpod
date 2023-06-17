@@ -20,8 +20,8 @@ SocketKLineModel _$SocketKLineModelFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$SocketKLineModel {
-  String? get socketKLineModelE => throw _privateConstructorUsedError;
-  int? get e => throw _privateConstructorUsedError;
+  String? get e => throw _privateConstructorUsedError;
+  int? get E => throw _privateConstructorUsedError;
   String? get s => throw _privateConstructorUsedError;
   K? get k => throw _privateConstructorUsedError;
 
@@ -37,7 +37,7 @@ abstract class $SocketKLineModelCopyWith<$Res> {
           SocketKLineModel value, $Res Function(SocketKLineModel) then) =
       _$SocketKLineModelCopyWithImpl<$Res, SocketKLineModel>;
   @useResult
-  $Res call({String? socketKLineModelE, int? e, String? s, K? k});
+  $Res call({String? e, int? E, String? s, K? k});
 
   $KCopyWith<$Res>? get k;
 }
@@ -55,19 +55,19 @@ class _$SocketKLineModelCopyWithImpl<$Res, $Val extends SocketKLineModel>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? socketKLineModelE = freezed,
     Object? e = freezed,
+    Object? E = freezed,
     Object? s = freezed,
     Object? k = freezed,
   }) {
     return _then(_value.copyWith(
-      socketKLineModelE: freezed == socketKLineModelE
-          ? _value.socketKLineModelE
-          : socketKLineModelE // ignore: cast_nullable_to_non_nullable
-              as String?,
       e: freezed == e
           ? _value.e
           : e // ignore: cast_nullable_to_non_nullable
+              as String?,
+      E: freezed == E
+          ? _value.E
+          : E // ignore: cast_nullable_to_non_nullable
               as int?,
       s: freezed == s
           ? _value.s
@@ -101,7 +101,7 @@ abstract class _$$_SocketKLineModelCopyWith<$Res>
       __$$_SocketKLineModelCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String? socketKLineModelE, int? e, String? s, K? k});
+  $Res call({String? e, int? E, String? s, K? k});
 
   @override
   $KCopyWith<$Res>? get k;
@@ -118,19 +118,19 @@ class __$$_SocketKLineModelCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? socketKLineModelE = freezed,
     Object? e = freezed,
+    Object? E = freezed,
     Object? s = freezed,
     Object? k = freezed,
   }) {
     return _then(_$_SocketKLineModel(
-      socketKLineModelE: freezed == socketKLineModelE
-          ? _value.socketKLineModelE
-          : socketKLineModelE // ignore: cast_nullable_to_non_nullable
-              as String?,
       e: freezed == e
           ? _value.e
           : e // ignore: cast_nullable_to_non_nullable
+              as String?,
+      E: freezed == E
+          ? _value.E
+          : E // ignore: cast_nullable_to_non_nullable
               as int?,
       s: freezed == s
           ? _value.s
@@ -147,15 +147,15 @@ class __$$_SocketKLineModelCopyWithImpl<$Res>
 /// @nodoc
 @JsonSerializable()
 class _$_SocketKLineModel implements _SocketKLineModel {
-  const _$_SocketKLineModel({this.socketKLineModelE, this.e, this.s, this.k});
+  const _$_SocketKLineModel({this.e, this.E, this.s, this.k});
 
   factory _$_SocketKLineModel.fromJson(Map<String, dynamic> json) =>
       _$$_SocketKLineModelFromJson(json);
 
   @override
-  final String? socketKLineModelE;
+  final String? e;
   @override
-  final int? e;
+  final int? E;
   @override
   final String? s;
   @override
@@ -163,7 +163,7 @@ class _$_SocketKLineModel implements _SocketKLineModel {
 
   @override
   String toString() {
-    return 'SocketKLineModel(socketKLineModelE: $socketKLineModelE, e: $e, s: $s, k: $k)';
+    return 'SocketKLineModel(e: $e, E: $E, s: $s, k: $k)';
   }
 
   @override
@@ -171,16 +171,15 @@ class _$_SocketKLineModel implements _SocketKLineModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_SocketKLineModel &&
-            (identical(other.socketKLineModelE, socketKLineModelE) ||
-                other.socketKLineModelE == socketKLineModelE) &&
             (identical(other.e, e) || other.e == e) &&
+            (identical(other.E, E) || other.E == E) &&
             (identical(other.s, s) || other.s == s) &&
             (identical(other.k, k) || other.k == k));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(runtimeType, socketKLineModelE, e, s, k);
+  int get hashCode => Object.hash(runtimeType, e, E, s, k);
 
   @JsonKey(ignore: true)
   @override
@@ -198,8 +197,8 @@ class _$_SocketKLineModel implements _SocketKLineModel {
 
 abstract class _SocketKLineModel implements SocketKLineModel {
   const factory _SocketKLineModel(
-      {final String? socketKLineModelE,
-      final int? e,
+      {final String? e,
+      final int? E,
       final String? s,
       final K? k}) = _$_SocketKLineModel;
 
@@ -207,9 +206,9 @@ abstract class _SocketKLineModel implements SocketKLineModel {
       _$_SocketKLineModel.fromJson;
 
   @override
-  String? get socketKLineModelE;
+  String? get e;
   @override
-  int? get e;
+  int? get E;
   @override
   String? get s;
   @override
@@ -226,23 +225,22 @@ K _$KFromJson(Map<String, dynamic> json) {
 
 /// @nodoc
 mixin _$K {
-  int? get kT => throw _privateConstructorUsedError;
   int? get t => throw _privateConstructorUsedError;
+  int? get T => throw _privateConstructorUsedError;
   String? get s => throw _privateConstructorUsedError;
   String? get i => throw _privateConstructorUsedError;
   int? get f => throw _privateConstructorUsedError;
-  int? get l => throw _privateConstructorUsedError;
+  int? get L => throw _privateConstructorUsedError;
   String? get o => throw _privateConstructorUsedError;
   String? get c => throw _privateConstructorUsedError;
   String? get h => throw _privateConstructorUsedError;
-  String? get kL => throw _privateConstructorUsedError;
-  String? get kV => throw _privateConstructorUsedError;
-  int? get n => throw _privateConstructorUsedError;
-  bool? get x => throw _privateConstructorUsedError;
-  String? get kQ => throw _privateConstructorUsedError;
+  String? get l => throw _privateConstructorUsedError;
   String? get v => throw _privateConstructorUsedError;
+  bool? get x => throw _privateConstructorUsedError;
   String? get q => throw _privateConstructorUsedError;
-  String? get b => throw _privateConstructorUsedError;
+  String? get Q => throw _privateConstructorUsedError;
+  String? get V => throw _privateConstructorUsedError;
+  String? get B => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -254,23 +252,22 @@ abstract class $KCopyWith<$Res> {
   factory $KCopyWith(K value, $Res Function(K) then) = _$KCopyWithImpl<$Res, K>;
   @useResult
   $Res call(
-      {int? kT,
-      int? t,
+      {int? t,
+      int? T,
       String? s,
       String? i,
       int? f,
-      int? l,
+      int? L,
       String? o,
       String? c,
       String? h,
-      String? kL,
-      String? kV,
-      int? n,
-      bool? x,
-      String? kQ,
+      String? l,
       String? v,
+      bool? x,
       String? q,
-      String? b});
+      String? Q,
+      String? V,
+      String? B});
 }
 
 /// @nodoc
@@ -285,32 +282,31 @@ class _$KCopyWithImpl<$Res, $Val extends K> implements $KCopyWith<$Res> {
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? kT = freezed,
     Object? t = freezed,
+    Object? T = freezed,
     Object? s = freezed,
     Object? i = freezed,
     Object? f = freezed,
-    Object? l = freezed,
+    Object? L = freezed,
     Object? o = freezed,
     Object? c = freezed,
     Object? h = freezed,
-    Object? kL = freezed,
-    Object? kV = freezed,
-    Object? n = freezed,
-    Object? x = freezed,
-    Object? kQ = freezed,
+    Object? l = freezed,
     Object? v = freezed,
+    Object? x = freezed,
     Object? q = freezed,
-    Object? b = freezed,
+    Object? Q = freezed,
+    Object? V = freezed,
+    Object? B = freezed,
   }) {
     return _then(_value.copyWith(
-      kT: freezed == kT
-          ? _value.kT
-          : kT // ignore: cast_nullable_to_non_nullable
-              as int?,
       t: freezed == t
           ? _value.t
           : t // ignore: cast_nullable_to_non_nullable
+              as int?,
+      T: freezed == T
+          ? _value.T
+          : T // ignore: cast_nullable_to_non_nullable
               as int?,
       s: freezed == s
           ? _value.s
@@ -324,9 +320,9 @@ class _$KCopyWithImpl<$Res, $Val extends K> implements $KCopyWith<$Res> {
           ? _value.f
           : f // ignore: cast_nullable_to_non_nullable
               as int?,
-      l: freezed == l
-          ? _value.l
-          : l // ignore: cast_nullable_to_non_nullable
+      L: freezed == L
+          ? _value.L
+          : L // ignore: cast_nullable_to_non_nullable
               as int?,
       o: freezed == o
           ? _value.o
@@ -340,37 +336,33 @@ class _$KCopyWithImpl<$Res, $Val extends K> implements $KCopyWith<$Res> {
           ? _value.h
           : h // ignore: cast_nullable_to_non_nullable
               as String?,
-      kL: freezed == kL
-          ? _value.kL
-          : kL // ignore: cast_nullable_to_non_nullable
-              as String?,
-      kV: freezed == kV
-          ? _value.kV
-          : kV // ignore: cast_nullable_to_non_nullable
-              as String?,
-      n: freezed == n
-          ? _value.n
-          : n // ignore: cast_nullable_to_non_nullable
-              as int?,
-      x: freezed == x
-          ? _value.x
-          : x // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      kQ: freezed == kQ
-          ? _value.kQ
-          : kQ // ignore: cast_nullable_to_non_nullable
+      l: freezed == l
+          ? _value.l
+          : l // ignore: cast_nullable_to_non_nullable
               as String?,
       v: freezed == v
           ? _value.v
           : v // ignore: cast_nullable_to_non_nullable
               as String?,
+      x: freezed == x
+          ? _value.x
+          : x // ignore: cast_nullable_to_non_nullable
+              as bool?,
       q: freezed == q
           ? _value.q
           : q // ignore: cast_nullable_to_non_nullable
               as String?,
-      b: freezed == b
-          ? _value.b
-          : b // ignore: cast_nullable_to_non_nullable
+      Q: freezed == Q
+          ? _value.Q
+          : Q // ignore: cast_nullable_to_non_nullable
+              as String?,
+      V: freezed == V
+          ? _value.V
+          : V // ignore: cast_nullable_to_non_nullable
+              as String?,
+      B: freezed == B
+          ? _value.B
+          : B // ignore: cast_nullable_to_non_nullable
               as String?,
     ) as $Val);
   }
@@ -383,23 +375,22 @@ abstract class _$$_KCopyWith<$Res> implements $KCopyWith<$Res> {
   @override
   @useResult
   $Res call(
-      {int? kT,
-      int? t,
+      {int? t,
+      int? T,
       String? s,
       String? i,
       int? f,
-      int? l,
+      int? L,
       String? o,
       String? c,
       String? h,
-      String? kL,
-      String? kV,
-      int? n,
-      bool? x,
-      String? kQ,
+      String? l,
       String? v,
+      bool? x,
       String? q,
-      String? b});
+      String? Q,
+      String? V,
+      String? B});
 }
 
 /// @nodoc
@@ -411,32 +402,31 @@ class __$$_KCopyWithImpl<$Res> extends _$KCopyWithImpl<$Res, _$_K>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? kT = freezed,
     Object? t = freezed,
+    Object? T = freezed,
     Object? s = freezed,
     Object? i = freezed,
     Object? f = freezed,
-    Object? l = freezed,
+    Object? L = freezed,
     Object? o = freezed,
     Object? c = freezed,
     Object? h = freezed,
-    Object? kL = freezed,
-    Object? kV = freezed,
-    Object? n = freezed,
-    Object? x = freezed,
-    Object? kQ = freezed,
+    Object? l = freezed,
     Object? v = freezed,
+    Object? x = freezed,
     Object? q = freezed,
-    Object? b = freezed,
+    Object? Q = freezed,
+    Object? V = freezed,
+    Object? B = freezed,
   }) {
     return _then(_$_K(
-      kT: freezed == kT
-          ? _value.kT
-          : kT // ignore: cast_nullable_to_non_nullable
-              as int?,
       t: freezed == t
           ? _value.t
           : t // ignore: cast_nullable_to_non_nullable
+              as int?,
+      T: freezed == T
+          ? _value.T
+          : T // ignore: cast_nullable_to_non_nullable
               as int?,
       s: freezed == s
           ? _value.s
@@ -450,9 +440,9 @@ class __$$_KCopyWithImpl<$Res> extends _$KCopyWithImpl<$Res, _$_K>
           ? _value.f
           : f // ignore: cast_nullable_to_non_nullable
               as int?,
-      l: freezed == l
-          ? _value.l
-          : l // ignore: cast_nullable_to_non_nullable
+      L: freezed == L
+          ? _value.L
+          : L // ignore: cast_nullable_to_non_nullable
               as int?,
       o: freezed == o
           ? _value.o
@@ -466,37 +456,33 @@ class __$$_KCopyWithImpl<$Res> extends _$KCopyWithImpl<$Res, _$_K>
           ? _value.h
           : h // ignore: cast_nullable_to_non_nullable
               as String?,
-      kL: freezed == kL
-          ? _value.kL
-          : kL // ignore: cast_nullable_to_non_nullable
-              as String?,
-      kV: freezed == kV
-          ? _value.kV
-          : kV // ignore: cast_nullable_to_non_nullable
-              as String?,
-      n: freezed == n
-          ? _value.n
-          : n // ignore: cast_nullable_to_non_nullable
-              as int?,
-      x: freezed == x
-          ? _value.x
-          : x // ignore: cast_nullable_to_non_nullable
-              as bool?,
-      kQ: freezed == kQ
-          ? _value.kQ
-          : kQ // ignore: cast_nullable_to_non_nullable
+      l: freezed == l
+          ? _value.l
+          : l // ignore: cast_nullable_to_non_nullable
               as String?,
       v: freezed == v
           ? _value.v
           : v // ignore: cast_nullable_to_non_nullable
               as String?,
+      x: freezed == x
+          ? _value.x
+          : x // ignore: cast_nullable_to_non_nullable
+              as bool?,
       q: freezed == q
           ? _value.q
           : q // ignore: cast_nullable_to_non_nullable
               as String?,
-      b: freezed == b
-          ? _value.b
-          : b // ignore: cast_nullable_to_non_nullable
+      Q: freezed == Q
+          ? _value.Q
+          : Q // ignore: cast_nullable_to_non_nullable
+              as String?,
+      V: freezed == V
+          ? _value.V
+          : V // ignore: cast_nullable_to_non_nullable
+              as String?,
+      B: freezed == B
+          ? _value.B
+          : B // ignore: cast_nullable_to_non_nullable
               as String?,
     ));
   }
@@ -506,30 +492,29 @@ class __$$_KCopyWithImpl<$Res> extends _$KCopyWithImpl<$Res, _$_K>
 @JsonSerializable()
 class _$_K implements _K {
   const _$_K(
-      {this.kT,
-      this.t,
+      {this.t,
+      this.T,
       this.s,
       this.i,
       this.f,
-      this.l,
+      this.L,
       this.o,
       this.c,
       this.h,
-      this.kL,
-      this.kV,
-      this.n,
-      this.x,
-      this.kQ,
+      this.l,
       this.v,
+      this.x,
       this.q,
-      this.b});
+      this.Q,
+      this.V,
+      this.B});
 
   factory _$_K.fromJson(Map<String, dynamic> json) => _$$_KFromJson(json);
 
   @override
-  final int? kT;
-  @override
   final int? t;
+  @override
+  final int? T;
   @override
   final String? s;
   @override
@@ -537,7 +522,7 @@ class _$_K implements _K {
   @override
   final int? f;
   @override
-  final int? l;
+  final int? L;
   @override
   final String? o;
   @override
@@ -545,25 +530,23 @@ class _$_K implements _K {
   @override
   final String? h;
   @override
-  final String? kL;
-  @override
-  final String? kV;
-  @override
-  final int? n;
-  @override
-  final bool? x;
-  @override
-  final String? kQ;
+  final String? l;
   @override
   final String? v;
   @override
+  final bool? x;
+  @override
   final String? q;
   @override
-  final String? b;
+  final String? Q;
+  @override
+  final String? V;
+  @override
+  final String? B;
 
   @override
   String toString() {
-    return 'K(kT: $kT, t: $t, s: $s, i: $i, f: $f, l: $l, o: $o, c: $c, h: $h, kL: $kL, kV: $kV, n: $n, x: $x, kQ: $kQ, v: $v, q: $q, b: $b)';
+    return 'K(t: $t, T: $T, s: $s, i: $i, f: $f, L: $L, o: $o, c: $c, h: $h, l: $l, v: $v, x: $x, q: $q, Q: $Q, V: $V, B: $B)';
   }
 
   @override
@@ -571,29 +554,28 @@ class _$_K implements _K {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_K &&
-            (identical(other.kT, kT) || other.kT == kT) &&
             (identical(other.t, t) || other.t == t) &&
+            (identical(other.T, T) || other.T == T) &&
             (identical(other.s, s) || other.s == s) &&
             (identical(other.i, i) || other.i == i) &&
             (identical(other.f, f) || other.f == f) &&
-            (identical(other.l, l) || other.l == l) &&
+            (identical(other.L, L) || other.L == L) &&
             (identical(other.o, o) || other.o == o) &&
             (identical(other.c, c) || other.c == c) &&
             (identical(other.h, h) || other.h == h) &&
-            (identical(other.kL, kL) || other.kL == kL) &&
-            (identical(other.kV, kV) || other.kV == kV) &&
-            (identical(other.n, n) || other.n == n) &&
-            (identical(other.x, x) || other.x == x) &&
-            (identical(other.kQ, kQ) || other.kQ == kQ) &&
+            (identical(other.l, l) || other.l == l) &&
             (identical(other.v, v) || other.v == v) &&
+            (identical(other.x, x) || other.x == x) &&
             (identical(other.q, q) || other.q == q) &&
-            (identical(other.b, b) || other.b == b));
+            (identical(other.Q, Q) || other.Q == Q) &&
+            (identical(other.V, V) || other.V == V) &&
+            (identical(other.B, B) || other.B == B));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(
-      runtimeType, kT, t, s, i, f, l, o, c, h, kL, kV, n, x, kQ, v, q, b);
+  int get hashCode =>
+      Object.hash(runtimeType, t, T, s, i, f, L, o, c, h, l, v, x, q, Q, V, B);
 
   @JsonKey(ignore: true)
   @override
@@ -611,30 +593,29 @@ class _$_K implements _K {
 
 abstract class _K implements K {
   const factory _K(
-      {final int? kT,
-      final int? t,
+      {final int? t,
+      final int? T,
       final String? s,
       final String? i,
       final int? f,
-      final int? l,
+      final int? L,
       final String? o,
       final String? c,
       final String? h,
-      final String? kL,
-      final String? kV,
-      final int? n,
-      final bool? x,
-      final String? kQ,
+      final String? l,
       final String? v,
+      final bool? x,
       final String? q,
-      final String? b}) = _$_K;
+      final String? Q,
+      final String? V,
+      final String? B}) = _$_K;
 
   factory _K.fromJson(Map<String, dynamic> json) = _$_K.fromJson;
 
   @override
-  int? get kT;
-  @override
   int? get t;
+  @override
+  int? get T;
   @override
   String? get s;
   @override
@@ -642,7 +623,7 @@ abstract class _K implements K {
   @override
   int? get f;
   @override
-  int? get l;
+  int? get L;
   @override
   String? get o;
   @override
@@ -650,21 +631,19 @@ abstract class _K implements K {
   @override
   String? get h;
   @override
-  String? get kL;
-  @override
-  String? get kV;
-  @override
-  int? get n;
-  @override
-  bool? get x;
-  @override
-  String? get kQ;
+  String? get l;
   @override
   String? get v;
   @override
+  bool? get x;
+  @override
   String? get q;
   @override
-  String? get b;
+  String? get Q;
+  @override
+  String? get V;
+  @override
+  String? get B;
   @override
   @JsonKey(ignore: true)
   _$$_KCopyWith<_$_K> get copyWith => throw _privateConstructorUsedError;
