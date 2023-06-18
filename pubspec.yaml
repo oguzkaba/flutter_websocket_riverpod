@@ -15,7 +15,6 @@ dependencies:
   device_preview: ^1.1.0
   dio: ^5.2.1+1
   easy_localization: ^3.0.2
-  fl_chart: ^0.63.0
   flutter:
     sdk: flutter
   flutter_local_notifications: ^14.1.1
@@ -32,6 +31,7 @@ dependencies:
   pinput: ^2.2.31
   settings_ui: ^2.0.2
   shimmer: ^3.0.0
+  syncfusion_flutter_charts: ^21.2.10
   web_socket_channel: ^2.4.0
 
 dev_dependencies:
@@ -45,15 +45,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/fonts/
-    - assets/images/
-    - assets/jsons/
-    - assets/lang/
-    - assets/lotties/
-    - assets/ss/
-    - assets/svg/
+  # assets:
+  #   - assets/fonts/
+  #   - assets/images/
+  #   - assets/jsons/
+  #   - assets/lang/
+  #   - assets/lotties/
+  #   - assets/ss/
+  #   - assets/svg/
   # Add Custom Fonts
   # fonts:
   #   - family: Montserrat
