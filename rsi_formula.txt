@@ -1,0 +1,20 @@
+
+
+//Sample
+
+Change = Round(((newPrice-oldPrice)/oldPrice*100);2)
+Gain = if(Change>0;Change;0)
+Loss = if(Change<0;[Change];0)
+14-Day Average Gain = Round(Sum(Gain1:Gain14)/14;2)
+14-Day Average Loss= Round(Sum(Loss1:Loss14)/14;2)
+
+RSI = 100 – (100/[1 + {14-Day Average Gain/14-Day Average Loss}])
+RSI = 100 – (100 / [1 +RS ])
+
+RSI = 100 – (100 / [1 +1.06 ])
+
+= 100-(100 /2.06)
+
+= 100-48.54
+
+= 51.46

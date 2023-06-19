@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_websocket_riverpod/core/extensions/string_extension.dart';
 import 'package:flutter_websocket_riverpod/core/init/websocket/kline/model/kline_parameter_model.dart';
+import 'package:flutter_websocket_riverpod/core/init/websocket/rsi/rsi_calculate.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 import '../model/socket_kline_model.dart';
@@ -26,6 +27,7 @@ final socketKLineProvider = StreamProvider.family
     _calculateCadence(listSocketKLine, socketKlineModel);
 
     listSocketKLine.add(socketKlineModel);
+    RSICalculate().calculate(listSocketKLine);
     yield listSocketKLine;
   }
 });

@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,6 +11,7 @@ import '../../../core/init/websocket/kline/provider/socket_kline_provider.dart';
 import '../../../core/init/websocket/trade/model/socket_trade_model.dart';
 import '../../../core/init/websocket/trade/provider/socket_trade_provider.dart';
 
+@RoutePage()
 class StatisticView extends ConsumerWidget {
   final String symbol, title;
   const StatisticView({required this.title, required this.symbol, super.key});

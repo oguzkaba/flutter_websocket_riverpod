@@ -1,6 +1,8 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_websocket_riverpod/features/statistic/view/statistic_view.dart';
 
+@RoutePage()
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
 

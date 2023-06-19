@@ -7,7 +7,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  animations: ^2.0.7
+  animate_do: ^3.0.2
   auto_route: ^7.4.0
   cached_network_image: ^3.2.3
   connectivity_plus: ^4.0.1
@@ -17,6 +17,7 @@ dependencies:
   easy_localization: ^3.0.2
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.1.0
   flutter_local_notifications: ^14.1.1
   flutter_riverpod: ^2.3.6
   flutter_svg: ^2.0.7
@@ -45,14 +46,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #   - assets/fonts/
-  #   - assets/images/
-  #   - assets/jsons/
-  #   - assets/lang/
-  #   - assets/lotties/
-  #   - assets/ss/
-  #   - assets/svg/
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/jsons/
+    - assets/lang/
+    - assets/lotties/
+    - assets/ss/
+    - assets/svg/
+    - .env
   # Add Custom Fonts
   # fonts:
   #   - family: Montserrat
