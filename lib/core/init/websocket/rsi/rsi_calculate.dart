@@ -10,34 +10,34 @@ class RSICalculate {
   List<double> rs = [];
   List<double> rsi = [];
 
-  List<double> calculate(List<SocketKLineModel> kLineList) {
-    for (var i = 0; i < kLineList.length; i++) {
-      if (i + 1 < kLineList.length) {
-        //change
-        final double ch =
-            (((kLineList[i + 1].k!.c!.toDouble - kLineList[i].k!.c!.toDouble) /
-                        kLineList[i].k!.c!.toDouble) *
-                    100)
-                .abs();
-        change.add(ch);
-        //Gain & Loss
-        if (ch > 0) {
-          gain.add(ch);
-          loss.add(0);
-        } else {
-          loss.add(ch);
-          gain.add(0);
-        }
-        //AvvGain
-        if (gain.length > 14) averageGainCalculate();
-        //AvvLoss
-        if (loss.length > 14) averageLossCalculate();
-        //RS
-        if (avGain.isNotEmpty && avLoss.isNotEmpty) rsCalculate();
-        //RSI
-        if (rs.isNotEmpty) rsiCalculate();
+  List<double> calculate(SocketKLineModel candle) {
+    //change
+    if (gain.isEmpty) {
+      change.add(candle.k!.c!.toDouble);
+    } else {
+      final double ch =
+          (((candle.k!.c!.toDouble - change.last) / change.last) * 100).abs();
+      change.add(ch);
+      //Gain & Loss
+      if (ch > 0) {
+        gain.add(ch);
+        loss.add(0);
+      } else {
+        loss.add(ch);
+        gain.add(0);
       }
     }
+    print('GainList: $gain');
+    print('LossList: $loss');
+    //AvvGain
+    if (gain.length > 14) averageGainCalculate();
+    //AvvLoss
+    if (loss.length > 14) averageLossCalculate();
+    //RS
+    if (avGain.isNotEmpty && avLoss.isNotEmpty) rsCalculate();
+    //RSI
+    if (rs.isNotEmpty) rsiCalculate();
+
     return rsi;
   }
 
